@@ -1,7 +1,7 @@
 $ORIGIN ngo.us.
 $TTL 86400
 ; SOA Records
-@		IN	SOA	ns2.afraid.org. admin.nic.ngo.us. YYYYMMDDNN 86400 10800 3600000 3600
+@		IN	SOA	ns2.afraid.org. admin.nic.ngo.us.<ctrl98>MMDDNN 86400 10800 3600000 3600
 
 ; ========== BEGIN REGISTRY SERVICES ==========
 
@@ -40,6 +40,13 @@ aihe 86400 IN NS emerie.ns.cloudflare.com.
 aihe 86400 IN NS ignacio.ns.cloudflare.com.
 xera 86400 IN NS dave.ns.cloudflare.com.
 xera 86400 IN NS irena.ns.cloudflare.com.
+
+; BeoData
+; Kontakt email: isforlawyers@gmail.com
+beodata 86400 IN NS ns1.mysecurecloudhost.com.
+beodata 86400 IN NS ns2.mysecurecloudhost.com.
+beodata 86400 IN NS ns3.mysecurecloudhost.com.
+beodata 86400 IN NS ns4.mysecurecloudhost.com.
 
 ; Freefall Softworks Archival Organization (FSARO)
 ; Submitted by the FSARO development team <fsaro@proton.me>
